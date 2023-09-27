@@ -44,7 +44,7 @@ const AdministracaoRestaurantes = () => {
                             {restaurante.nome}
                         </TableCell>
                         <TableCell>
-                            [ <RouterLink to={`/alura_alfood/admin/restaurantes/${restaurante.id}`}>editar</RouterLink> ]
+                            [ <RouterLink to={`/admin/restaurantes/${restaurante.id}`}>editar</RouterLink> ]
                         </TableCell>
                         <TableCell>
                             <Button variant="outlined" color="error" onClick={() => excluir(restaurante)}>

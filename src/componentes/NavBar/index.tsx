@@ -5,13 +5,10 @@ const NavBar = () => {
   return (<nav className={estilos.Link}>
     <ul>
       <li>
-        <Link to="/alura_alfood">Home</Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
         <Link to="restaurantes">Restaurantes</Link>
-      </li>
-      <li>
-        <Link to="admin">Admin</Link>
       </li>
     </ul>
   </nav>)
