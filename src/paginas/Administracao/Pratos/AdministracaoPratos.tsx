@@ -56,7 +56,7 @@ const AdministracaoPratos = () => {
                             [<a href={prato.imagem} target="_blank" rel="noreferrer">ver imagem</a>]
                         </TableCell>
                         <TableCell>
-                            [ <RouterLink to={`/admin/pratos/${prato.id}`}>editar</RouterLink> ]
+                            [ <RouterLink to={`/alura_alfood/admin/pratos/${prato.id}`}>editar</RouterLink> ]
                         </TableCell>
                         <TableCell>
                             <Button variant="outlined" color="error" onClick={() => excluir(prato)}>

@@ -11,18 +11,18 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/restaurantes" element={<VitrineRestaurantes />} />
+      <Route path="alura_alfood/" element={<Home />} />
+      <Route path="alura_alfood/restaurantes" element={<VitrineRestaurantes />} />
 
-      <Route path='/admin' element={<PaginaBaseAdmin />}>
+      <Route path='alura_alfood/admin' element={<PaginaBaseAdmin />} />
 
-        <Route path="restaurantes" element={<AdministracaoRestaurantes />} />
-        <Route path="restaurantes/novo" element={<FormularioRestaurante />} />
-        <Route path="restaurantes/:id" element={<FormularioRestaurante />} />
+      <Route path="alura_alfood/admin/restaurantes" element={<AdministracaoRestaurantes />} />
+      <Route path="alura_alfood/admin/restaurantes/novo" element={<FormularioRestaurante />} />
+      <Route path="alura_alfood/admin/restaurantes/:id" element={<FormularioRestaurante />} />
 
-        <Route path="pratos" element={<AdministracaoPratos />} />
-        <Route path="pratos/novo" element={<FormularioPrato />} />
-      </Route>
+      <Route path="alura_alfood/admin/pratos" element={<AdministracaoPratos />} />
+      <Route path="alura_alfood/admin/pratos/novo" element={<FormularioPrato />} />
+    
 
     </Routes>
   );

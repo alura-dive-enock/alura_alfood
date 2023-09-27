@@ -8,27 +8,29 @@ const PaginaBaseAdmin = () => {
             <AppBar position="static">
                 <Container maxWidth="xl">
                     <Toolbar>
-                        <Typography variant="h6">
-                            Administração
-                        </Typography>
+                        <RouterLink to="/alura_alfood" style={{textDecoration: 'none', color: 'white'}}>   
+                            <Typography variant="h6">
+                                Administração
+                            </Typography>
+                        </RouterLink>
                         <Box sx={{ display: 'flex', flexGrow: 1 }}>
-                            <Link component={RouterLink} to="/admin/restaurantes">
+                            <Link component={RouterLink} to="/alura_alfood/admin/restaurantes">
                                 <Button sx={{ my: 2, color: 'white' }}>
                                     Restaurantes
                                 </Button>
                             </Link>
-                            <Link component={RouterLink} to="/admin/restaurantes/novo">
+                            <Link component={RouterLink} to="/alura_alfood/admin/restaurantes/novo">
                                 <Button sx={{ my: 2, color: 'white' }}>
                                     Novo Restaurante
                                 </Button>
                             </Link>
 
-                            <Link component={RouterLink} to="/admin/pratos">
+                            <Link component={RouterLink} to="/alura_alfood/admin/pratos">
                                 <Button sx={{ my: 2, color: 'white' }}>
                                     Pratos
                                 </Button>
                             </Link>
-                            <Link component={RouterLink} to="/admin/pratos/novo">
+                            <Link component={RouterLink} to="/alura_alfood/admin/pratos/novo">
                                 <Button sx={{ my: 2, color: 'white' }}>
                                     Novo Prato
                                 </Button>
