@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/alura_alfood/static/css/main.a66ce3f6.css",
+    "main.js": "/alura_alfood/static/js/main.c8d73fe4.js",
+    "index.html": "/alura_alfood/index.html",
+    "main.a66ce3f6.css.map": "/alura_alfood/static/css/main.a66ce3f6.css.map",
+    "main.c8d73fe4.js.map": "/alura_alfood/static/js/main.c8d73fe4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a66ce3f6.css",
+    "static/js/main.c8d73fe4.js"
+  ]
+}
